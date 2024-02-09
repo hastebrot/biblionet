@@ -1,0 +1,39 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:lucide-preact@0.323.0": "npm:lucide-preact@0.323.0_preact@10.19.3",
+      "npm:nanoid@5.0.5": "npm:nanoid@5.0.5",
+      "npm:postgres@3.4.3": "npm:postgres@3.4.3",
+      "npm:zod@3.22.4": "npm:zod@3.22.4"
+    },
+    "npm": {
+      "lucide-preact@0.323.0_preact@10.19.3": {
+        "integrity": "sha512-lUEMMklqiecm797qxU+vCjzuT7AswnmOPbiGb8O8/GKCRYbzNws0sgTw9P6EiRr7LQ6RSHY9Up/rdjeG5nzZ/w==",
+        "dependencies": {
+          "preact": "preact@10.19.3"
+        }
+      },
+      "nanoid@5.0.5": {
+        "integrity": "sha512-/Veqm+QKsyMY3kqi4faWplnY1u+VuKO3dD2binyPIybP31DRO29bPF+1mszgLnrR2KqSLceFLBNw0zmvDzN1QQ==",
+        "dependencies": {}
+      },
+      "postgres@3.4.3": {
+        "integrity": "sha512-iHJn4+M9vbTdHSdDzNkC0crHq+1CUdFhx+YqCE+SqWxPjm+Zu63jq7yZborOBF64c8pc58O5uMudyL1FQcHacA==",
+        "dependencies": {}
+      },
+      "preact@10.19.3": {
+        "integrity": "sha512-nHHTeFVBTHRGxJXKkKu5hT8C/YWBkPso4/Gad6xuj5dbptt9iF9NZr9pHbPhBrnT2klheu7mHTxTZ/LjwJiEiQ==",
+        "dependencies": {}
+      },
+      "zod@3.22.4": {
+        "integrity": "sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {
+    "https://deno.land/std@0.214.0/fmt/bytes.ts": "7b294a4b9cf0297efa55acb55d50610f3e116a0ac772d1df0ae00f0b833ccd4a",
+    "https://deno.land/std@0.214.0/fmt/duration.ts": "606f8c2bbbadd7f7a122868a478c9ad31f2e66b1e19e0a9769655585414fced6"
+  }
+}

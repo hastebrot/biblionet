@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>biblionet-web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="content-security-policy"
+      content="default-src 'self' 'unsafe-inline' 'unsafe-eval' unpkg.com;"
+    />
+    <meta
+      name="htmx-config"
+      content='{"selfRequestsOnly":true,"allowEval":true,"allowScriptTags":false,"scrollBehavior":"instant","ignoreTitle":false,"historyCacheSize":0}'
+    />
+    <script src="https://unpkg.com/@twind/cdn@1.0.8" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/htmx.org@1.9.10" crossorigin="anonymous"></script>
+    <script
+      src="https://unpkg.com/idiomorph@0.3.0/dist/idiomorph-ext.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/index.js"></script>
+  </head>
+  <body
+    hx-ext="morph"
+    class="m-0 overflow-hidden overscroll-none bg-white"
+    hx-get="/site"
+    hx-trigger="load"
+    hx-swap="innerHTML"
+  ></body>
+</html>

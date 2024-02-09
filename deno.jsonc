@@ -1,0 +1,12 @@
+{
+  "tasks": {
+    "dev": "deno task dev:biblionet-web & deno task dev:biblionet-db",
+    "dev:biblionet-web": "cd biblionet-web && PORT=5050 deno task -q dev",
+    "dev:biblionet-db": "cd biblionet-db && PORT=5060 deno task -q dev",
+    "test": "cd biblionet-test && deno task -q test",
+    "test:watch": "cd biblionet-test && deno task -q test:watch"
+  },
+  "fmt": {
+    "lineWidth": 100
+  }
+}

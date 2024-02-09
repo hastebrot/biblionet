@@ -1,0 +1,89 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:clsx@2.0.0": "npm:clsx@2.0.0",
+      "npm:clsx@2.1.0": "npm:clsx@2.1.0",
+      "npm:lucide-preact@0.292.0": "npm:lucide-preact@0.292.0_preact@10.18.1",
+      "npm:lucide-preact@0.323.0": "npm:lucide-preact@0.323.0_preact@10.18.1",
+      "npm:nanoid@5.0.3": "npm:nanoid@5.0.3",
+      "npm:nanoid@5.0.5": "npm:nanoid@5.0.5",
+      "npm:postgres@3.4.3": "npm:postgres@3.4.3",
+      "npm:preact-render-to-string@6.2.2": "npm:preact-render-to-string@6.2.2_preact@10.18.1",
+      "npm:preact-render-to-string@6.3.1": "npm:preact-render-to-string@6.3.1_preact@10.18.1",
+      "npm:preact@10.18.1": "npm:preact@10.18.1",
+      "npm:preact@10.19.1": "npm:preact@10.19.1",
+      "npm:preact@10.19.3": "npm:preact@10.19.3",
+      "npm:zod@3.22.4": "npm:zod@3.22.4"
+    },
+    "npm": {
+      "clsx@2.0.0": {
+        "integrity": "sha512-rQ1+kcj+ttHG0MKVGBUXwayCCF1oh39BF5COIpRzuCEv8Mwjv0XucrI2ExNTOn9IlLifGClWQcU9BrZORvtw6Q==",
+        "dependencies": {}
+      },
+      "clsx@2.1.0": {
+        "integrity": "sha512-m3iNNWpd9rl3jvvcBnu70ylMdrXt8Vlq4HYadnU5fwcOtvkSQWPmj7amUcDT2qYI7risszBjI5AUIUox9D16pg==",
+        "dependencies": {}
+      },
+      "lucide-preact@0.292.0_preact@10.18.1": {
+        "integrity": "sha512-Z1xv9XQhu7iPqQUfd+c2FgDWo7umScm3SNsF0Bk4fR9scwefizUYS+MjdRYXNHmKZyMYWrsoVnMy9Aft/Mlw7Q==",
+        "dependencies": {
+          "preact": "preact@10.18.1"
+        }
+      },
+      "lucide-preact@0.323.0_preact@10.18.1": {
+        "integrity": "sha512-lUEMMklqiecm797qxU+vCjzuT7AswnmOPbiGb8O8/GKCRYbzNws0sgTw9P6EiRr7LQ6RSHY9Up/rdjeG5nzZ/w==",
+        "dependencies": {
+          "preact": "preact@10.18.1"
+        }
+      },
+      "nanoid@5.0.3": {
+        "integrity": "sha512-I7X2b22cxA4LIHXPSqbBCEQSL+1wv8TuoefejsX4HFWyC6jc5JG7CEaxOltiKjc1M+YCS2YkrZZcj4+dytw9GA==",
+        "dependencies": {}
+      },
+      "nanoid@5.0.5": {
+        "integrity": "sha512-/Veqm+QKsyMY3kqi4faWplnY1u+VuKO3dD2binyPIybP31DRO29bPF+1mszgLnrR2KqSLceFLBNw0zmvDzN1QQ==",
+        "dependencies": {}
+      },
+      "postgres@3.4.3": {
+        "integrity": "sha512-iHJn4+M9vbTdHSdDzNkC0crHq+1CUdFhx+YqCE+SqWxPjm+Zu63jq7yZborOBF64c8pc58O5uMudyL1FQcHacA==",
+        "dependencies": {}
+      },
+      "preact-render-to-string@6.2.2_preact@10.18.1": {
+        "integrity": "sha512-YDfXQiVeYZutFR8/DpxLSbW3W6b7GgjBExRBxOOqcjrGq5rA9cziitQdNPMZe4RVMSdfBnf4hYqyeLs/KvtIuA==",
+        "dependencies": {
+          "preact": "preact@10.18.1",
+          "pretty-format": "pretty-format@3.8.0"
+        }
+      },
+      "preact-render-to-string@6.3.1_preact@10.18.1": {
+        "integrity": "sha512-NQ28WrjLtWY6lKDlTxnFpKHZdpjfF+oE6V4tZ0rTrunHrtZp6Dm0oFrcJalt/5PNeqJz4j1DuZDS0Y6rCBoqDA==",
+        "dependencies": {
+          "preact": "preact@10.18.1",
+          "pretty-format": "pretty-format@3.8.0"
+        }
+      },
+      "preact@10.18.1": {
+        "integrity": "sha512-mKUD7RRkQQM6s7Rkmi7IFkoEHjuFqRQUaXamO61E6Nn7vqF/bo7EZCmSyrUnp2UWHw0O7XjZ2eeXis+m7tf4lg==",
+        "dependencies": {}
+      },
+      "preact@10.19.1": {
+        "integrity": "sha512-ZSsUr6EFlwWH0btdXMj6+X+hJAZ1v+aUzKlfwBGokKB1ZO6Shz+D16LxQhM8f+E/UgkKbVe2tsWXtGTUMCkGpQ==",
+        "dependencies": {}
+      },
+      "preact@10.19.3": {
+        "integrity": "sha512-nHHTeFVBTHRGxJXKkKu5hT8C/YWBkPso4/Gad6xuj5dbptt9iF9NZr9pHbPhBrnT2klheu7mHTxTZ/LjwJiEiQ==",
+        "dependencies": {}
+      },
+      "pretty-format@3.8.0": {
+        "integrity": "sha512-WuxUnVtlWL1OfZFQFuqvnvs6MiAGk9UNsBostyBOB0Is9wb5uRESevA6rnl/rkksXaGX3GzZhPup5d6Vp1nFew==",
+        "dependencies": {}
+      },
+      "zod@3.22.4": {
+        "integrity": "sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==",
+        "dependencies": {}
+      }
+    }
+  },
+  "remote": {}
+}

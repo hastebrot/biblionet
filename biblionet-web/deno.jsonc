@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "dev": "deno run -A --watch=public/index.html,public/index.js --no-clear-screen service.ts"
+  }
+}
