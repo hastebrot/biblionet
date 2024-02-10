@@ -3,8 +3,7 @@ import { icons } from "../deps.ts";
 import { Json } from "../helper/json.ts";
 import { Fragment, classNames, createElement, renderToString } from "../helper/jsx.ts";
 import { Zod } from "../helper/zod.ts";
-import { ReadBlocksByTagResponse } from "../model.ts";
-import { Block, ReadBlocksResponse } from "../model.ts";
+import { Block, ReadBlocksByTagResponse, ReadBlocksResponse } from "../model.ts";
 import { Context } from "../types.ts";
 
 export const handleLayout = async (ctx: Context, req: Request): Promise<Response> => {
@@ -93,7 +92,11 @@ export const Layout = ({ pageIndex, blocks, blocksTags }: LayoutProps) => {
                 /> */}
                   <ButtonDotDot />
                 </div>
-                <div>{block.tags.map(tag => <span>{tag.text}</span>)}</div>
+                <div>
+                  {block.tags.map((tag) => (
+                    <span>{tag.text}</span>
+                  ))}
+                </div>
               </Fragment>
             );
           })}

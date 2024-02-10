@@ -1,5 +1,13 @@
 # biblionet
 
+> Quote & reference project
+
+usage:
+
+- `❯ deno task dev`
+- `❯ deno task test:watch`
+- `❯ open -a safari --url "http://localhost:5050/"`
+
 business domain
 
 - file, file listing

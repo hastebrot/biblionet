@@ -24,7 +24,7 @@ if (import.meta.main) {
   addEventListener("beforeunload", async () => {
     await sql.end();
   });
-  await migrateKvStore(sql, postgresSchema, true);
+  await migrateKvStore(sql, postgresSchema, false);
   const ctx = {
     kv: new KvStore(sql),
   };
